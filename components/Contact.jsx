@@ -5,7 +5,7 @@ const Contact = ({ contactRef }) => {
   let [name, setName] = useState("");
   let [email, setEmail] = useState("");
   let [text, setText] = useState("");
-  emailjs.init(process.env.NEXT_PUBLIC_USER_KEY);
+  emailjs.init("user_odhNxNHBAuuYyBBNjlrg6");
   useEffect(() => {
     window.onload = function () {
       document
