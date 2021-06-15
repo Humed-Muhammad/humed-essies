@@ -35,7 +35,7 @@ const Home = ({ contactRef }) => {
       variants={parentVa}
       initial="hidden"
       animate="visible"
-      className="w-auto h-screen px-10 py-20 flex flex-col justify-around items-center sm:justify-center md:px-40 items-baseline"
+      className="w-auto h-screen px-10 py-20 flex flex-col justify-center items-center sm:justify-center md:px-40 items-baseline"
     >
       <motion.h3
         variants={child}

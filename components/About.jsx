@@ -10,7 +10,7 @@ const About = ({ aboutRef }) => {
   return (
     <div
       ref={aboutRef}
-      className="About h-1.5screen w-full flex flex-col justify-space-between items-center lg:flex-row sm:h-screen"
+      className="About h-screen w-full flex flex-col justify-space-between items-center lg:flex-row xl:w-3/4"
     >
       <div className="w-full flex flex-col justify-center items-center md:w-10/12 lg:w-9/12 px-20">
         <h className="text-white text-2xl font-bold md:text-5xl">About Me</h>
@@ -32,7 +32,7 @@ const About = ({ aboutRef }) => {
         </p>
       </div>
       <div className="w-64 h-64 py-10 lg:py-0">
-        <div className="w-64 h-64 rounded relative border-2 border-solid border-green-300 lg:right-24 xl:right-36 lg:absolute">
+        <div className="w-64 h-64 rounded relative border-2 border-solid border-green-300 lg:right-24 xl:right-36 lg: absolute xl:relative">
           <img
             className="w-64 h-64 absolute -top-5 -left-5 rounded"
             src="/pp.jpg"
