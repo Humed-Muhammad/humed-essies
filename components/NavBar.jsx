@@ -103,7 +103,7 @@ const NavBar = ({ skillRef, aboutRef, workRef, contactRef }) => {
           className="sm:rounded-lg bg-green-400 py-2"
         >
           <a
-            href="#"
+            href="https://drive.google.com/file/d/1k7C8jyKhYoxnjKn0WNklVxqoaAiwn95K/view?usp=sharing"
             className="link text-gray-200 font-medium px-4 hover:text-gray-900 transition duration-500 ease"
           >
             Resume
